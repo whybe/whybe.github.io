@@ -24,4 +24,3 @@ gem "github-pages", group: :jekyll_plugins
 #   gem "jekyll-github-metadata", "~> 1.0"
 # end
 
-gem "netrc"
