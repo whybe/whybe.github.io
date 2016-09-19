@@ -16,7 +16,7 @@
 title: whybe's blog
 email: ahsky2@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  whybe's blog
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://whybe.github.io" # the base hostname & protocol for your site
 twitter_username: whybe0
@@ -24,4 +24,7 @@ github_username:  whybe
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-simple-theme
+
+disqus:
+    shortname: whybe
