@@ -25,6 +25,3 @@ github_username:  whybe
 # Build settings
 markdown: kramdown
 theme: jekyll-simple-theme
-
-disqus:
-    shortname: whybe
