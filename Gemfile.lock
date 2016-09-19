@@ -21,7 +21,7 @@ GEM
     ffi (1.9.14)
     forwardable-extended (2.6.0)
     gemoji (2.1.0)
-    github-pages (95)
+    github-pages (96)
       activesupport (= 4.2.7)
       github-pages-health-check (= 1.2.0)
       jekyll (= 3.2.1)
@@ -40,7 +40,7 @@ GEM
       liquid (= 3.0.6)
       listen (= 3.0.6)
       mercenary (~> 0.3)
-      minima (= 1.1.0)
+      minima (= 1.2.0)
       rouge (= 1.11.1)
       terminal-table (~> 1.4)
     github-pages-health-check (1.2.0)
@@ -82,6 +82,7 @@ GEM
       sass (~> 3.2)
     jekyll-seo-tag (2.0.0)
       jekyll (~> 3.1)
+    jekyll-simple-theme (0.1.0)
     jekyll-sitemap (0.10.0)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
@@ -98,10 +99,11 @@ GEM
       rb-inotify (>= 0.9.7)
     mercenary (0.3.6)
     mini_portile2 (2.1.0)
-    minima (1.1.0)
+    minima (1.2.0)
     minitest (5.9.0)
     multipart-post (2.0.0)
     net-dns (0.8.0)
+    netrc (0.11.0)
     nokogiri (1.6.8)
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
@@ -134,10 +136,11 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  minima
+  jekyll-simple-theme
+  netrc
 
 RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.13.0
+   1.13.1
